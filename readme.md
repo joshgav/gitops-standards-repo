@@ -154,7 +154,7 @@ kind: Kustomization
 
 components:
   - ../../groups/all
-  - https://github.com/raffaelespazzoli/gitops-std-repo/groups/non-prod?ref=v1.0.6
+  - https://github.com/joshgav/gitops-standards-repo/groups/non-prod?ref=v1.0.6
   - ../../groups/geo-east
 
 ```

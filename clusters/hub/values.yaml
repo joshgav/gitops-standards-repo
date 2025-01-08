@@ -11,7 +11,7 @@ default:
       namespace: openshift-gitops
       server: https://kubernetes.default.svc
     source:
-      repoURL: https://github.com/environment-aas/platform-iac.git
+      repoURL: https://github.com/joshgav/gitops-standards-repo.git
       targetRevision: HEAD
     syncOptions:
     - ApplyOutOfSyncOnly=true
@@ -49,4 +49,3 @@ applications:
       namespace: open-cluster-management
     source:
       path: clusters/hub/overlays/acm-configuration         
-                          
